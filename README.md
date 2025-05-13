@@ -6,10 +6,15 @@ geolocation. Built with Docker and Docker Compose.
 🚀 Features
 
 🔢 Counts visits in real time using Redis
+
 🌍 Detects visitor country via IP (with flag emoji 🇺🇸)
+
 📜 Displays the 50 most recent visits (timestamp + country)
+
 🔁 One-click reset button
+
 🐳 Dockerized with Redis persistence
+
 
 🧱 Project Structure
 
