@@ -3,7 +3,7 @@
 # Project Title: Containerizing a Flask Web App with Redis Using Docker
 
 📌 Objective
-The goal of this assignment is to demonstrate your ability to containerize a Python web application using Docker and Docker Compose. 
+The goal of this project is to demonstrate your ability to containerize a Python web application using Docker and Docker Compose. 
 You will set up a multi-container application that includes:
 A Flask-based web app
 A Redis key-value store
