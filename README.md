@@ -46,11 +46,14 @@ Visit 👉 http://localhost:9000
 
 
 ⚙️ Configuration
+You will need to create a .env file in the visitor-counter directory after cloning this repository to your docker host. If the .env file is not created, the application will break and will not function properly.
 
-FLASK_APP=app.py
-FLASK_ENV=development
-REDIS_HOST=redis
-REDIS_PORT=6379
+An example .env file that is required for this app can be found below
+
+FLASK_APP=app.py          # Informs Flask which file contains the app - in this case app.py. When you run "flask run", it looks for this variable to start the app
+FLASK_ENV=development     # Enables auto-reload (needed for cirtical code changes), it shows details error messages with stack traces. Use it for development, not for production.
+REDIS_HOST=redis          # Informs Flask app where to find the Redis Host with the name redis. If Redis was external, this can be a localhost or an IP address. Docker resolves the name redis to IP
+REDIS_PORT=6379           # Specifies the port that Redis is listening on
 
 
 🔄 Reset Counter
