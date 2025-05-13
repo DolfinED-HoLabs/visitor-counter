@@ -36,11 +36,12 @@ Docker & Docker Compose installed
 
 To download (clone) this to your Docker host
 git clone https://github.com/your-username/visitor-counter.git
+
 cd visitor-counter
-
-# Run with custom project name
 docker-compose -p visitor-counter up --build
+# This will run it with a custom project name "visitor-counter"
 
+# to test
 Visit 👉 http://localhost:9000
 
 
